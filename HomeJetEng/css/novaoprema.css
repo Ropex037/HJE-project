@@ -1,0 +1,100 @@
+.Kore {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.Noprema {
+    font-size: 20px;
+}
+
+.Vsito {
+    /* border: 1px solid var(--main-orange); */
+    padding-top: 20px;
+    background-color: var(--main-gray);
+    margin-left: auto;
+    margin-right: 5px;
+    /* text-align: center; */
+    box-shadow: -3px 3px var(--main-orange);
+    overflow: hidden;
+    margin-bottom: 6px;
+    height: 540px;
+}
+
+.Vsito h4 {
+    padding-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Vsito p {
+    color: whitesmoke;
+}
+
+.Vsito a {
+    list-style: none;
+    color: var(--main-orange);
+}
+
+.Vsito a:hover {
+    color: whitesmoke;
+}
+
+.Vsito li {
+    padding-top: 10px;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.protivSM {
+    /* border: 1px solid var(--main-orange); */
+    padding-top: 20px;
+    background-color: var(--main-gray);
+    margin-right: auto;
+    /* padding-left: 10px; */
+    text-align: center;
+    box-shadow: -3px 3px var(--main-orange);
+    height: 68vh;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+
+.protivSM h4 {
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.protivSM p {
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 25px;
+}
+
+/* .protivSM img {
+    height: 250px;
+    overflow: hidden;
+} */
+
+@media(max-width:786px) {}
+
+@media(max-width:992px) {}
+
+@media(max-width:1200px) {
+    .protivSM {
+        height: 98%;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .protivSM p {
+        font-size: 12px;
+    }
+    .Vsito p {
+        font-size: 16px;
+        padding-left: 2px;
+    }
+    .Vtext {
+        font-size: 16px;
+    }
+}

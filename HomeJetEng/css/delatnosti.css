@@ -1,0 +1,80 @@
+body {
+    background-color: var(--main-light) !important;
+}
+
+#delatnosti {
+    margin-top: 56px;
+    padding: 20px 0px;
+}
+
+.delatnosti-title {
+    color: var(--main-light) !important;
+    border-left: 4px solid var(--main-orange);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#delatnosti .card-header {
+    background-color: var( --main-blue) !important;
+}
+
+#delatnosti .card-body {
+    background-color: var( --main-light) !important;
+}
+
+.main-header {
+    position: relative;
+    margin-top: 20px;
+    color: var(--main-light) !important;
+}
+
+.main-header::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: -1px;
+    height: 3px;
+    background-color: var(--main-orange);
+    left: 40%;
+}
+
+.main-description {
+    margin-top: 20px;
+    color: var(--main-light) !important;
+    font-size: 20px;
+}
+
+.read-more-link {
+    color: var(--main-light) !important;
+    background-color: var(--main-orange-dark) !important;
+    padding: 5px 10px;
+}
+
+.read-more-link:hover {
+    background-color: var(--main-orange) !important;
+}
+
+.orange-text-title {
+    color: var(--main-orange) !important;
+}
+
+#delatnosti-header {
+    background-image: url("../img/zupcanici1.jpg");
+    height: 60vh;
+    width: 100%;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+/* .remont-lista {
+    justify-content: center;
+    list-style: none;
+    height: 200px;
+} */
+
+@media(max-width:1200px) {
+    .main-description {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,86 @@
+#carts {
+    padding-bottom: 1.6rem;
+}
+
+#carts h2 {
+    position: relative;
+    text-align: center;
+    border-left: 0px solid black !important;
+    margin: 0;
+}
+
+#carts h2::after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 5px;
+    background-color: var(--main-orange);
+    left: 45%;
+    bottom: -0.5rem;
+}
+
+.pneumatic {
+    padding: 1rem;
+    border-radius: 2%;
+    margin: 2rem 0;
+    overflow: hidden;
+    height: auto;
+    transition: all .25s ease-in-out;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.pneumatic h5 {
+    text-align: center;
+    color: var(--main-dark);
+}
+
+.pneumatic a {
+    text-decoration: none;
+}
+
+.pneumatic p {
+    width: 320px;
+}
+
+.pneumatic img {
+    padding-top: .4rem;
+    padding-bottom: 1rem;
+}
+
+.cool-rounded-button {
+    border-radius: 100px;
+    border-color: transparent !important;
+    background-color: var(--main-blue) !important;
+    color: var(--main-light) !important;
+}
+
+.cool-rounded-button:hover {
+    background-color: var(--main-orange) !important;
+}
+
+.pneumatic-link {
+    font-size: 14px;
+    color: var(--main-orange) !important;
+    text-decoration: underline !important;
+    transition: all .2s ease-in-out;
+}
+
+.pneumatic-link:hover {
+    color: var(--main-orange-dark) !important;
+}
+
+@media(min-width:786px) {}
+
+@media(min-width:992px) {
+    .pneumatic {
+        height: 350px;
+        padding: 1.25rem;
+    }
+    .pneumatic:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        z-index: 999;
+    }
+}
+
+@media(min-width:1200px) {}

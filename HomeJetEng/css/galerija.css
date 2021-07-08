@@ -1,0 +1,21 @@
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: var(--main-orange);
+    padding-bottom: 20px;
+}
+
+.galerija1 img {
+    margin: 10px;
+    transition: 1s;
+    width: 320px;
+}
+
+.galerija1 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+/* .lb-nav a.lb-next {
+    opacity: 1;
+} */

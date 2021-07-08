@@ -1,0 +1,102 @@
+#map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+}
+
+#Kontakti {
+    position: relative;
+    z-index: 1;
+    /* width: 300px; */
+    margin: 60px auto 0;
+    padding: 10px;
+    /* background: black; */
+    color: white;
+    opacity: .65;
+    height: 80vh;
+}
+
+.dark {
+    padding: 15px;
+    background: #2B2D42;
+    columns: #f7f7f7;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: 70 auto;
+    border-radius: 2%;
+    height: 557px;
+    position: absolute;
+}
+
+.dark h4, p, label {
+    color: var(--main-light);
+}
+
+.Unos {
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.poruka {
+    width: 90%;
+    height: 100px;
+    padding-bottom: 20px;
+    line-height: 18px;
+}
+
+.cool-rounded-button-1 {
+    position: relative;
+    border-radius: 100px;
+    border-color: var(--main-orange) !important;
+    border-color: transparent !important;
+    /* background-color: var(--main-blue) !important; */
+    background-color: var(--main-orange) !important;
+    color: var(--main-light) !important;
+    text-align: center;
+    align-items: center;
+    margin-left: 186px;
+    padding: 10px;
+    margin-top: 50px;
+    top: -20%;
+}
+
+.cool-rounded-button-1:hover {
+    /* color: var(--main-orange) !important; */
+    /* background-color: var(--main-dark) !important; */
+    /* background-color: var(--main-orange) !important; */
+    background-color: var(--main-gray) !important;
+    /* color: var(--main-blue) !important; */
+}
+
+#footer {
+    padding-top: 10px;
+}
+
+@media(max-width: 786px) {}
+
+@media(max-width: 992px) {}
+
+@media(max-width:1200px) {
+    .dark {
+        height: 400px;
+    }
+    .dark h4, p, label {
+        color: var(--main-light);
+        font-size: 10px;
+    }
+    .my-form {
+        height: 300px;
+        position: absolute;
+    }
+    .cool-rounded-button-1 {
+        align-items: center;
+        font-size: 10px;
+        position: relative;
+        top: -22%;
+        left: -28%;
+    }
+}

@@ -1,0 +1,98 @@
+#nav {
+    background-color: var(--main-blue) !important;
+}
+
+.nav-link, .nav-item {
+    color: var(--main-light) !important;
+    text-transform: uppercase !important;
+    font-weight: regular;
+    letter-spacing: .075rem;
+    cursor: pointer !important;
+}
+
+.nav-link:hover {
+    color: var(--main-orange) !important;
+}
+
+.navbar-brand {
+    color: var(--main-light) !important;
+}
+
+.search-btn {
+    border-color: var(--main-orange) !important;
+    color: var(--main-orange) !important;
+}
+
+.search-btn:hover {
+    background-color: var(--main-orange) !important;
+    color: var(--main-light) !important;
+}
+
+.navbar-toggler {
+    border-color: var(--main-light) !important;
+}
+
+.navbar-toggler .fa-bars {
+    color: var(--main-light) !important;
+}
+
+.nav-link {
+    transition: color .25s ease-in-out;
+}
+
+.dropdown-item {
+    font-size: 0.7rem !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    top: calc(100% - 5px) !important;
+}
+
+@media only screen and (max-width: 970px) {
+    .dropdown-menu {
+        display: block !important;
+    }
+}
+
+.contact-icons-nav-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icons-nav-cnt i {
+    width: 25px;
+    height: 25px;
+    margin: 8px!important;
+    border-radius: 50%;
+    background-color: var(--main-orange);
+    color: var(--main-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contact-icons-nav-cnt a {
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color: var(--main-orange);
+    color: var(--main-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media(max-width:1200px) {
+    .navbar-brand img {
+        width: 200px;
+        height: 20px;
+    }
+}

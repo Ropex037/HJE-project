@@ -1,0 +1,10 @@
+.main-description {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+@media(max-width:1200px) {
+    .main-description {
+        font-size: 14px;
+    }
+}

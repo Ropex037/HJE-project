@@ -1,0 +1,128 @@
+ a {
+     color: #fff;
+ }
+
+ a:hover {
+     color: var(--main-orange);
+ }
+
+ #footer {
+     /* position: absolute; */
+     /* bottom: 0; */
+     width: 100%;
+     color: var(--main-light);
+ }
+
+ #footer-top {
+     background-color: var(--main-blue);
+     padding-top: 3.5rem;
+     padding-bottom: 2rem;
+ }
+
+ #footer-bottom {
+     background-color: rgb(24, 25, 31);
+     color: #fff;
+     display: flex;
+     align-items: center;
+ }
+
+ #footer-bottom p {
+     margin: 0;
+     padding: 1.2rem;
+ }
+
+ .useful-links {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .footer-section-h {
+     text-transform: uppercase;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-bottom: 1rem;
+     letter-spacing: .075rem;
+     padding-bottom: .5rem;
+     border-bottom: 1px solid var(--main-gray);
+     position: relative;
+ }
+
+ .useful-links-item {
+     border-bottom: 1px solid var(--main-gray);
+     padding-bottom: .5rem;
+     margin-bottom: .75rem;
+     display: flex;
+     align-items: center;
+     position: relative;
+ }
+
+ .useful-links-item p {
+     font-weight: .85rem;
+ }
+
+ .useful-links-item::before {
+     content: '';
+     position: absolute;
+     bottom: -1px;
+     left: 0;
+     background-color: var(--main-orange);
+     width: 20%;
+     height: 1px;
+ }
+
+ .footer-section-h::before {
+     content: '';
+     position: absolute;
+     width: 20%;
+     height: 1px;
+     bottom: -1px;
+     height: 2px;
+     background-color: var(--main-orange);
+ }
+
+ .footer-contact-item {
+     margin-left: .5rem;
+     margin-bottom: .5rem;
+ }
+
+ .contact-icons-cnt {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 1.5rem;
+ }
+
+ .contact-icons-cnt i {
+     width: 40px;
+     height: 45px;
+     margin: 20px!important;
+     border-radius: 50%;
+     background-color: var(--main-orange);
+     color: var(--main-light);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+ }
+
+ .contact-icons-cnt a {
+     width: 40px;
+     height: 45px;
+     margin: 20px;
+     border-radius: 50%;
+     background-color: var(--main-orange);
+     color: var(--main-light);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+ }
+
+ .contact-additional-info-h {
+     text-transform: uppercase;
+     border-left: 4px solid var(--main-orange);
+     padding-left: .75rem;
+     font-size: 1.5rem;
+     letter-spacing: .075rem;
+ }
